@@ -3,8 +3,8 @@
   become: yes
 
   vars:
-    repo_url: "https://github.com/CloudTechDevOps/2nd10WeeksofCloudOps-main.git"
-    app_path: "/root/veera/"
+    repo_url: "https://github.com/alfarmur/2nd10WeeksofCloudOps-main.git"
+    app_path: "/root/ramya/"
     frontend_image: "frontend-app:latest"
     backend_image: "backend-app:latest"
     rds_host: "database-1.cjkookymada4.us-east-1.rds.amazonaws.com"
