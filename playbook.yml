@@ -15,6 +15,7 @@
   roles:
     - common
     - gitclone
-    - frontend
     - backend
+    - frontend
+    
 
