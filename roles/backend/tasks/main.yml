@@ -14,7 +14,13 @@
       DB_HOST: "{{ rds_host }}"
       DB_USERNAME: "{{ rds_user }}"
       DB_PASSWORD: "{{ rds_password }}"
-      PORT: "{{ rds_port }}"
+       DB_PORT: 3306
+      APP_PORT: 3000
     ports:
-      - "84:80"
-    restart_policy: always
+      - "84:3000"
+     
+     
+     # PORT: "{{ rds_port }}"
+    #ports:
+     # - "84:80"
+     restart_policy: always
